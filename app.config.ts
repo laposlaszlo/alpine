@@ -18,12 +18,17 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: true, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        // possible value are : true | false
+        enabled: true,
+
+        // our github repository
+        repository: 'https://www.github.com/nuxt-themes/alpine',
+
+        text: 'Lapos László'
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
-      message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
+      message: 'Follow me on GitHub' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
       twitter: 'nuxtlabs',
